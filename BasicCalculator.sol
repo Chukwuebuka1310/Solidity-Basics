@@ -5,7 +5,7 @@ pragma solidity ^0.8.7;
 contract BasicCalculator{
 
     //int allows for negative  integers
-    int256 result;
+    int256 public result;
 
     function add() public {
         //Adds 20 to the result
